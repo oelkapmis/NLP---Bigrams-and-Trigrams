@@ -19,6 +19,7 @@ stemWords = [stemmer.stem(word) for word in rawWords]
 
 finderBi = BigramCollocationFinder.from_words(rawWords)
 finderTri = TrigramCollocationFinder.from_words(rawWords)
+## Here stemWords also can be used instead of rawWords as an option
 
 ignored_words = set(stopwords.words("english"))
 filterStops = lambda w: len(w)<3 or w in ignored_words
