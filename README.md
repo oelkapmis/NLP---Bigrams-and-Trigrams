@@ -1,5 +1,5 @@
 # NLTK---Bigrams-and-Trigrams
-A basic Python code to determine bigrams and trigrams from corpus via NLTK library.
+A basic Python code to determine bigrams and trigrams from a corpus via NLTK library.
 
 I have collected some news from Washington Post, The New York Times, BBC and Sputnik. 
 Put them together into a text file (corpus)
